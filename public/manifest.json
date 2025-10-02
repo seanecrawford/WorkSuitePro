@@ -1,16 +1,16 @@
 {
-  "name": "Work Suite Pro",
-  "short_name": "WorkSuite",
-  "description": "Work Suite Pro: Optimize, Track, Succeed—Smarter Workflows for Seamless Productivity.",
+  "name": "Sprig WorkSuite",
+  "short_name": "SprigSuite",
+  "description": "Sprig WorkSuite: projects, tasks, time & training\u2014execute work and upskill your team in one place.",
   "icons": [
     {
-      "src": "https://storage.googleapis.com/hostinger-horizons-assets-prod/a9365322-bbe3-48f5-a0c3-474b7bc95d50/5dec98958824cda67e815b2d5131d721_192.png",
+      "src": "/icon-192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "https://storage.googleapis.com/hostinger-horizons-assets-prod/a9365322-bbe3-48f5-a0c3-474b7bc95d50/5dec98958824cda67e815b2d5131d721_512.png",
+      "src": "/icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
