@@ -1,4 +1,4 @@
-import path from 'node:path';
+﻿import path from 'node:path';
 import react from '@vitejs/plugin-react';
 import { createLogger, defineConfig } from 'vite';
 import inlineEditPlugin from './plugins/visual-editor/vite-plugin-react-inline-editor.js';
@@ -202,6 +202,7 @@ logger.error = (msg, options) => {
 }
 
 export default defineConfig({
+  base: '/',
 	customLogger: logger,
 	plugins: [
 		...(isDev ? [inlineEditPlugin(), editModeDevPlugin(), iframeRouteRestorationPlugin()] : []),
@@ -232,3 +233,4 @@ export default defineConfig({
 		}
 	}
 });
+
